@@ -1,5 +1,35 @@
 Rails.application.routes.draw do
 
+  get 'cars/index'
+
+  get 'cars/show'
+
+  get 'cars/new'
+
+  get 'cars/edit'
+
+  get 'cars/delete'
+
+  get 'models/index'
+
+  get 'models/show'
+
+  get 'models/new'
+
+  get 'models/edit'
+
+  get 'models/delete'
+
+  get 'brands/index'
+
+  get 'brands/show'
+
+  get 'brands/new'
+
+  get 'brands/edit'
+
+  get 'brands/delete'
+
   root "test#index"
 
   get 'test/index'
